@@ -113,6 +113,7 @@ class _FingerPrintState extends State<FingerPrint> {
                 children: <Widget>[
                   Image.asset(
                     'assets/dedo.png',
+
                     width: 200,
                     height: 200,
                   ),

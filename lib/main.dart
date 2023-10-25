@@ -95,17 +95,17 @@ class _FingerPrintState extends State<FingerPrint> {
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: <Widget>[
-            Center(
-              child: Text(
+            const Center(
+              child:  Text(
                 "Login",
-                style: TextStyle(
+                style:  TextStyle(
                     color: Colors.white,
                     fontSize: 48.0,
                     fontWeight: FontWeight.bold),
               ),
             ),
             Container(
-              margin: EdgeInsets.symmetric(
+              margin: const EdgeInsets.symmetric(
                 vertical: 50.0,
               ),
               child: Column(
@@ -117,12 +117,12 @@ class _FingerPrintState extends State<FingerPrint> {
                     width: 200,
                     height: 200,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 50,
                   ),
-                  Text("Acceso solo con huella digital"),
+                  const Text("Acceso solo con huella digital"),
                   Container(
-                    margin: EdgeInsets.symmetric(
+                    margin: const EdgeInsets.symmetric(
                       vertical: 15.0,
                     ),
                     width: double.infinity,
@@ -133,8 +133,8 @@ class _FingerPrintState extends State<FingerPrint> {
                         borderRadius: BorderRadius.circular(30.0),
                       ),
                       onPressed: _authenticate,
-                      child: Padding(
-                        padding: EdgeInsets.symmetric(
+                      child: const Padding(
+                        padding:  EdgeInsets.symmetric(
                             vertical: 14.0, horizontal: 24.0),
                         child: Text(
                           "Login",
